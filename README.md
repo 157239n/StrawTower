@@ -86,8 +86,7 @@ Here are the results:
 ![](https://imgur.com/vuZR2pV.png)
 
 #### Total deformation
-
-![](https://imgur.com/LEVzX080.png)
+![](https://imgur.com/LEVzX08.png)
 
 I made them so that they have the same height, so that we can at the very least have something in common to compare.
 
