@@ -49,7 +49,7 @@ I think this is a better design when it comes to cost because we can really make
 I got a little digging in Ansys so that I can simulate the stresses on the structure as a whole. Because I wanted only a visualization of where the stresses take place, not the actual values of them, I have set up my model as follows:
 
 - Material used: standard structural steel (have roughly the same properties as straws and uncooked spaghetti)
-- The beams are 2mm thich in diameter
+- The beams are 2mm thick in diameter
 
 ### Pyramid
 
