@@ -34,13 +34,13 @@ Currently, we came up with these 2 initial design proposals:
 
 The first looks like this:
 
-![](https://imgur.com/6cKA27r)
+![](https://imgur.com/6cKA27r.png)
 
 Basically a braced pyramid. Pretty straightforward.
 
 And the second looks like this:
 
-![](https://imgur.com/J2zmU3i)
+![](https://imgur.com/J2zmU3i.png)
 
 I think this is a better design when it comes to cost because we can really make the bottom base small compared to the pyramid. But for structural stability, the pyramid brings home the cake.
 
@@ -63,11 +63,11 @@ Here are the results:
 
 #### Equivalent stress
 
-![](https://imgur.com/We5NeoR)
+![](https://imgur.com/We5NeoR.png)
 
 #### Equivalent stress of a cross section
 
-![](https://imgur.com/TmK1sTg)
+![](https://imgur.com/TmK1sTg.png)
 
 ### Weird pyramid
 
@@ -79,15 +79,15 @@ Here are the results:
 
 #### Equivalent stress
 
-![](https://imgur.com/Iedmtsd)
+![](https://imgur.com/Iedmtsd.png)
 
 #### Equivalent stress of a cross section
 
-![](https://imgur.com/vuZR2pV)
+![](https://imgur.com/vuZR2pV.png)
 
 #### Total deformation
 
-![](https://imgur.com/LEVzX080)
+![](https://imgur.com/LEVzX080.png)
 
 I made them so that they have the same height, so that we can at the very least have something in common to compare.
 
@@ -95,7 +95,7 @@ I made them so that they have the same height, so that we can at the very least 
 
 So having known where the stresses are concentrated, we're now more interested in the materials needed, the height each tower model achieves, what is the cost of the tower and what is the cost per unit height. Because all of this is a real hassle to calculate by hand, I have created a program that sits inside this repository called StrawModel.
 
-For anyone who just wants to use it, there is a StrawModel.jar file. Download it, using your shell to nagivate to the folder containing the file, execute ```shell java -jar StrawModel.jar``` then follow the instructions.
+For anyone who just wants to use it, there is a StrawModel.jar file. Download it, using your shell to nagivate to the folder containing the file, execute ```java -jar StrawModel.jar``` then follow the instructions.
 
 For anyone who is interested in the code, you can execure ```gradlew shadowJar``` and then locate the jar inside build/libs. ```gradlew run``` will not work.
 
@@ -103,7 +103,7 @@ Also, if you want a lightweight version of the code that only computes the prope
 
 This is a snip of what the program is about:
 
-![](https://imgur.com/0IzjpqZ)
+![](https://imgur.com/0IzjpqZ.png)
 
 This allows you to know the details of the tower, what the height is, what are the materials needed, that sort of stuff. It lets you to experiment with as much variables as you'd like and to really find balance between height and cost.
 
