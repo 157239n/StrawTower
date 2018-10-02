@@ -96,7 +96,7 @@ So having known where the stresses are concentrated, we're now more interested i
 
 For anyone who just wants to use it, there is a StrawModel.jar file. Download it, using your shell to nagivate to the folder containing the file, execute ```java -jar StrawModel.jar``` then follow the instructions.
 
-For anyone who is interested in the code, you can execure ```gradlew shadowJar``` and then locate the jar inside build/libs. ```gradlew run``` will not work.
+For anyone who is interested in the code, you can execute ```gradlew shadowJar``` and then locate the jar inside build/libs. ```gradlew run``` will not work.
 
 Also, if you want a lightweight version of the code that only computes the properties of the tower and not the visualization, you can remove all other files and leave StrawModel.java behind. After that you compile continuously and remove lines where the compiler says have a problem. After a bit of removal it should work perfectly.
 
